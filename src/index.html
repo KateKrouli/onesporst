@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>OneSport</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="images/favicon-light.png" id="favicon">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="adaptive.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body data-theme="light">
+ <include src="header.html"></include> 
+ <main class="main-width">
+  <include src="sidebar.html"></include> 
+  <div class="content">
+    <include src="top-slider.html"></include>
+    <div class="container">
+      <a id="matches"></a>
+     <include src="sports.html"></include> 
+     <include src="app-banner.html"></include> 
+     </div> 
+      <div class="container">
+        <a id="news"></a>
+        <include src="news.html"></include> 
+      </div>
+      <include src="telegram-banner.html"></include> 
+       <div class="container">
+        <a id="standings"></a>
+        <include src="tab.html"></include> 
+       </div>
+       <div class="container">
+        <include src="teams.html"></include> 
+      </div>
+  </div>
+ </main>
+ <include src="app-popup.html"></include> 
+<include src="footer.html"></include> 
+<include src="bottom-panel.html"></include> 
+
+<!-- Подключаем вынесённый JS -->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/sports.js" defer></script>
+<script src="js/news.js" defer></script>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>
