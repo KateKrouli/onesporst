@@ -1,0 +1,486 @@
+@media (max-width: 1440px) and (min-width: 767px) {
+
+    body {
+        font-size: 1vw;
+    }
+
+    .main-width {
+  width: 100%;
+  max-width: 1440px;
+  max-width: 100vw;
+  padding: 0 1.667vw;
+}
+
+.btn {
+  padding: 0.556vw 1.111vw;
+  height: 2.5vw;
+}
+
+h2 {
+  font-size: 1.389vw;
+}
+
+.content {
+  padding: 2.778vw 1.111vw 0 2.778vw;
+  gap: 3vw;
+}
+
+.container {
+  padding: 0.556vw;
+}
+
+header .header {
+  height: 4.722vw;
+}
+header .header__logo {
+  width: 19.875vw;
+  font-size: 1.25vw;
+}
+header .header__search {
+  width: 22.708vw;
+  padding: 0.694vw;
+}
+header .header__search input {
+  font-size: 0.972vw;
+}
+header .header__controls {
+  gap: 2.222vw;
+}
+
+.header .header__lang {
+ width: 2.083vw;
+    height:  2.083vw;
+}
+
+header .header__theme-icon svg {
+    width: 1.666vw;
+    height: 1.666vw;
+}
+
+header .header__notifications span {
+  width: 2.389vw;
+  min-width: 2.389vw;
+  height: 2.389vw;
+}
+
+header .header__notifications svg {
+    width: 1.666vw;
+    height: 1.666vw;
+}
+
+header .header__app span {
+  padding: 0.556vw 0.833vw;
+}
+header .header__app .btn {
+  padding: 0.417vw 0.833vw;
+  font-size: 0.972vw;
+}
+
+.sidebar {
+  width: 19.097vw;
+  min-width: 19.097vw;
+  padding: 1.667vw 1.667vw 1.944vw 0;
+}
+
+.sidebar__nav {
+    gap: 1.66vw;
+}
+
+.sidebar__nav-item a img {
+  width: 1.667vw;
+  height: 1.667vw;
+}
+.sidebar__nav-item a span {
+  width: 1.667vw;
+  height: 1.667vw;
+}
+
+.sidebar__nav-item a  svg {
+    width: 1.666vw;
+    height: 1.666vw;
+}
+
+.sidebar__tab-buttons {
+  margin-bottom: 1.944vw;
+}
+.sidebar__app {
+  margin-top: 1.944vw;
+  margin-left: -1.042vw;
+  width: 17.986vw;
+  height: 11.458vw;
+  border-radius: 1.389vw;
+
+}
+.sidebar__app-info {
+  padding: 1.389vw;
+
+}
+.sidebar__app-title {
+  font-size: 1.111vw;
+  font-weight: 700;
+}
+
+.sidebar__app-icons {
+  width: 15.764vw;
+  height: 4.167vw;
+  padding-top: 1.389vw;
+  gap: 0.556vw;
+}
+.sidebar__app-icons img, .sidebar__app-icons svg {
+  width: 2.083vw;
+  height: 2.083vw;
+}
+.sidebar__app-img {
+  width: 11.806vw;
+  height: 11.806vw;
+}
+.slider {
+  width: 100%;
+  height: calc(28vw + 30px);
+ 
+}
+
+.slider .slider__wrapper {
+    width: 79.167vw;
+    left: -2.778vw;
+}
+
+.slider .slide {
+  padding: 0.417vw 0.833vw;
+}
+
+.slider .slide:after {
+  height: 25.556vw;
+}
+
+.slider .slide__player {
+    width: 25vw;
+    height: 23.611vw;
+}
+
+.slider .slide__content { 
+  padding: 2.778vw 0;
+  gap: 2.222vw;
+}
+.slider .slide__teams {
+  gap: 1.667vw;
+}
+.slider .slide__team {
+width: 10.417vw;
+height: 10.417vw;
+}
+
+.slider .slide__match-scores span {
+  padding: 0.417vw 0.833vw;
+}
+.slider .slide__timer {
+  gap: 1.111vw;
+}
+.slider .slide__timer div {
+  min-width: 4.167vw;
+}
+.slider .slide__timer div div {
+  font-size: 1.944vw;
+  height: 2.361vw;
+}
+.slider .slide__timer div span {
+  font-size: 1.111vw;
+}
+.slider .slide__controls {
+  gap: 0.833vw;
+}
+.slider .slide__btn {
+  width: 15.417vw;
+  padding: 1.111vw 1.667vw;
+  font-size: 1.111vw;
+}
+.slider .swiper-pagination-bullet {
+  width: 1.319vw;
+  height: 0.833vw;
+}
+
+.swiper-container {
+  padding: 0 2.778vw;
+}
+
+.swiper-slide {
+  width: 73.611vw !important;
+}
+
+
+.swiper-slide-next .slide {
+     margin-left: -3.778vw;
+     width: 44.611vw !important;
+}
+
+.swiper-slide-prev .slide {
+     margin-right: -3.778vw;
+     width: 44.611vw !important;
+}
+
+.sports {
+  padding: 1.667vw 1.667vw 2.222vw 1.667vw;
+}
+.sports__tab {
+  padding: 0 1.667vw 1.111vw 1.667vw;
+  font-size: 1.528vw;
+}
+.sports .date-picker {
+  padding: 1.389vw 0;
+}
+.sports .date-picker button {
+  padding: 0.417vw 1.111vw;
+}
+.sports .leagues--cricket {
+  row-gap: 0.833vw;
+  column-gap: 1.667vw;
+  padding: 1.389vw 0;
+}
+.sports .leagues p {
+  padding-top: 1.389vw;
+}
+.sports .league {
+  row-gap: 0.833vw;
+  column-gap: 1.667vw;
+  padding: 1.389vw 0;
+}
+.sports .league__header {
+  gap: 0.833vw;
+}
+.sports .league__logo {
+  width: 2.917vw;
+  height: 2.917vw;
+  padding: 0.417vw;
+}
+.sports .league__logo img {
+  width: 1.667vw;
+  height: 1.667vw;
+}
+.sports .match {
+  padding: 0.556vw;
+  gap: 1.181vw;
+  width: calc(50% - 0.833vw);
+}
+.sports .team {
+  gap: 0.833vw;
+}
+.sports .team__logo {
+  width: 2.5vw;
+  min-width: 2.5vw;
+  height: 2.5vw;
+  padding: 0.556vw;
+}
+.sports .team span {
+  width: 4.556vw;
+}
+.sports .time {
+  padding: 0.278vw 0.278vw 0.278vw 1.111vw;
+  gap: 1.181vw;
+}
+.sports .time--status {
+  padding: 0.278vw 1.111vw;
+}
+.sports .time span {
+  padding: 0.278vw;
+  font-size: 0.833vw;
+}
+.sports .time span.watch:before {
+  width: 1.389vw;
+  height: 1.389vw;
+}
+.sports .match-status {
+  font-size: 0.833vw;
+}
+
+.app-banner {
+  height: 22.778vw;
+}
+.app-banner__content {
+  padding: 2.778vw;
+}
+.app-banner__image {
+  width: 43.681vw;
+  height: 25.347vw;
+}
+.app-banner__title div {
+  padding: 0.694vw 1.042vw;
+  font-size: 2.361vw;
+}
+.app-banner__text {
+  font-size: 1.111vw;
+}
+.app-banner__controls {
+  gap: 0.833vw;
+}
+.app-banner__btn {
+  padding: 0.278vw 0.278vw 0.278vw 1.667vw;
+  gap: 1.667vw;
+}
+.app-banner__btn span {
+  padding: 0.556vw;
+}
+.app-banner__qr {
+  padding: 0.556vw;
+}
+
+.news {
+  padding: 1.667vw 1.667vw 0.833vw 1.667vw;
+  gap: 1.66vw;
+}
+.news__heading {
+  gap: 2.5vw;
+}
+.news__topics {
+  padding: 1.389vw 0;
+  max-width: 58.083vw;
+}
+.news__topic {
+  padding: 0.417vw 1.111vw;
+}
+.news__list {
+  gap: 0.833vw;
+}
+.news__item {
+  min-width: calc(25% - 1.25vw);
+  max-width: calc(25% - 1.25vw);
+}
+.news__item--custom:after {
+  top: 0.556vw;
+  left: 0.556vw;
+  padding: 0.278vw 0.833vw;
+  font-size: 0.833vw;
+}
+.news__image {
+  height: 10.972vw;
+}
+.news__image img {
+  height: 10.972vw;
+}
+.news__content {
+  padding: 1.111vw 1.389vw 1.389vw 1.389vw;
+}
+.news__title {
+  font-size: 1.111vw;
+}
+.news__btn {
+  padding: 0.278vw 0.278vw 0.278vw 1.667vw;
+  gap: 1.667vw;
+  width: 12.111vw;
+  margin: 0.833vw auto;
+  border-radius: 0.83vw;
+}
+.news__btn span {
+  padding: 0.556vw;
+}
+
+  .news__btn span svg {
+    width: 1.39vw;
+    height: 1.39vw;
+  }  
+
+.telegram-banner {
+  height: 16.597vw;
+  padding: 2.778vw;
+  border-radius: 1.66vw;
+}
+.telegram-banner__title {
+  font-size: 2.361vw;
+}
+
+.tab {
+  padding: 1.667vw;
+}
+.tab__header:before {
+  width: 2.222vw;
+  height: 2.222vw;
+}
+.tab__league {
+  font-size: 1.111vw;
+}
+.tab__league:after {
+  width: 2.222vw;
+  height: 2.222vw;
+}
+.tab__link {
+  font-size: 1.111vw;
+}
+.tab__link:after {
+  width: 2.222vw;
+  height: 2.222vw;
+}
+.tab__head {
+  padding: 0.556vw 1.111vw;
+  padding-right: 3.333vw;
+  font-size: 1.111vw;
+}
+.tab__head > div:last-child {
+  width: 10.764vw;
+}
+.tab__body {
+  padding-right: 1.667vw;
+  max-height: 29.514vw;
+}
+.tab__body::-webkit-scrollbar {
+  width: 0.417vw;
+}
+.tab__row {
+  padding: 1.111vw;
+  font-size: 1.111vw;
+}
+.tab__row > div:last-child {
+  width: 10.764vw;
+}
+.tab__club {
+  width: 30.903vw;
+}
+.tab__club > div:first-child {
+  width: 2.778vw;
+}
+.tab__digits {
+  width: 16.667vw;
+}
+.tab__colors {
+  padding: 0.556vw 1.667vw 1.667vw;
+  gap: 1.667vw;
+}
+.tab__colors div span {
+  width: 0.833vw;
+  height: 0.833vw;
+}
+.tab__form .form-badge {
+  width: 1.389vw;
+  height: 1.389vw;
+}
+.tab__form .form-badge.draw:after {
+  font-size: 1.111vw;
+  line-height: 0.764vw;
+}
+
+.teams {
+  padding: 1.667vw 1.667vw 0.833vw 1.667vw;
+}
+.teams__heading {
+  gap: 2.5vw;
+}
+.teams__topics {
+  padding: 1.389vw 0;
+}
+.teams__topic {
+  padding: 0.417vw 1.111vw;
+}
+.teams__container {
+  gap: 1.389vw;
+  max-width: 71.319vw;
+  margin-right: -2.083vw;
+}
+.teams__item {
+  width: 8.611vw;
+  height: 8.611vw;
+  padding: 2.083vw;
+}
+
+footer {
+  padding: 2.778vw 0 2.778vw 19.097vw;
+  font-size: 1.111vw;
+}
+}

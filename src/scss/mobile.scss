@@ -76,16 +76,19 @@
             display: none;
         }
 
+        &__app {
+            margin-left:0;
+        }
+
     }
 
     .content {
         padding: 8px 0;
     }
 
-
     .slider {
-        height: 670px;
-
+        height: 625px;
+        aspect-ratio: auto;
         &__wrapper {
             width: 100%;
             left: 0;
@@ -103,7 +106,7 @@
         }
 
         .slide {
-            padding-top: 230px;
+            padding-top: 97px;
 
              &:before {
                 background-position: top center;
@@ -140,6 +143,17 @@
                 gap: 13px;
             }
 
+            &__teams {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            &__match {
+                order: 2;
+                width: 100%;
+                justify-content: center;
+            }
+
             &__match-title {
                 display: none;
             }
@@ -152,9 +166,10 @@
                 display: flex;
             }
 
-            &__match-scores {
-                flex-direction: column;
-            }
+
+            // &__match-scores {
+            //     flex-direction: column;
+            // }
 
             &__timer div div {
                 font-size: 20px;
@@ -216,6 +231,7 @@
 
                 span {
                         order: 2;
+                        width: auto;
                 }
             }
 

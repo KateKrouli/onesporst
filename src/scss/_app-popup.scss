@@ -71,11 +71,19 @@
         &--1 {    
             background: var(--main-10, rgba(0, 138, 255, 0.10));
             color: var(--main-100);
+
+            &:hover {
+                background: var(--main-20, rgba(0, 138, 255, 0.20));
+            }
         }
 
         &--2 {
             background: var(--main-100, #008AFF);
             color: var(--white-100);
+
+            &:hover {
+                background: var(--main-80, #006FCC);
+            }
         }
     }
 

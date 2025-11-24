@@ -54,6 +54,7 @@
         cursor: pointer;
         transition: all .3s ease;
          color: var(--vulcan);
+         white-space: nowrap;
 
         &--selected, &:hover {
             border: 1px solid var(--main-100, #008AFF);

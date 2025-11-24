@@ -112,10 +112,62 @@
     }
 
     &__app {
+            margin-top: 28px;
             margin-left: -15px;
             width: 259px;
             height: 165px;
             border-radius: 20px;
+            border-radius: 20px;
+            background: var(--main-10);
+            position: relative;
+
+            &-info {
+               padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                height: 100%;
+                position: relative;
+                z-index: 1;
+            }
+
+            &-title {
+                color: var(--vulcan, #FFF);
+                font-size: 16px;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            &-subtitle {
+               color: var(--vulcan, #FFF);
+            opacity: 0.4;
+            }
+
+            &-icons {
+                display: flex;
+                width: 227px;
+                height: 60px;
+                padding-top: 20px;
+                align-items: center;
+                gap: 8px;
+                flex-shrink: 0;
+
+                img, svg {
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                }
+            }
+
+            &-img {
+                position: absolute;
+                width: 170px;
+                height: 170px;
+                bottom: 0;
+                left: 50%;
+                z-index: 0;
+            }
     }
 
     .header__controls {

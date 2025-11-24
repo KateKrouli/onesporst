@@ -18,6 +18,7 @@
         background: url(images/telegram-bg.webp) right center no-repeat;
             background-size: cover;
 
+
              @media (max-width: 767px) {
                  background: url(images/telegram-bg-mob.webp) center no-repeat;
                  background-size: cover;
@@ -25,10 +26,20 @@
             }
     }
 
-    .sidebar__app {
-        background: url(images/sidebar-app.webp) center no-repeat;
-            background-size: contain;
+    &[data-lang="pakistan"],
+    &[data-lang="sa"] {
+        .telegram-banner {
+            background: url(images/telegram-bg-rtl.webp) left center no-repeat;
+            background-size: cover;
+
+              @media (max-width: 767px) {
+                 background: url(images/telegram-bg-mob.webp) center no-repeat;
+                 background-size: cover;
+
+            }
+        }
     }
+
     .sidebar__nav--leagues .sidebar__nav-item:first-child img {
         filter: grayscale(100)  brightness(0);
     }
@@ -58,10 +69,25 @@
         background: url(images/telegram-bg-dark.webp) right center no-repeat;
             background-size: cover;
 
+
+
             @media (max-width: 767px) {
                  background: url(images/telegram-bg-dark-mob.webp) center no-repeat;
                  background-size: cover;
                 }
+    }
+
+    &[data-lang="pakistan"],
+    &[data-lang="sa"] {
+        .telegram-banner {
+            background: url(images/telegram-bg-rtl-dark.webp) left center no-repeat;
+            background-size: cover;
+
+            @media (max-width: 767px) {
+                 background: url(images/telegram-bg-dark-mob.webp) center no-repeat;
+                 background-size: cover;
+                }
+        }
     }
 
     .tab__header img {
@@ -79,12 +105,13 @@
         }
     }
 
-    .sidebar__app {
-        background: url(images/sidebar-app-dark.webp) center no-repeat;
-            background-size: contain;
-    }
 
     .app-popup {
         background: rgba(0, 0, 0, 0.9);
     }
+
+    .sports .time span.watch:before {
+        filter: invert(1);
+    }
 }
+

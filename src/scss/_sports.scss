@@ -23,6 +23,7 @@
         cursor: pointer;
         transition: all .3s ease;
         color: var(--vulcan-40);
+        white-space: nowrap;
         
 
         &--active {
@@ -131,7 +132,7 @@
         padding: 8px;
         justify-content: center;
         align-items: center;
-        gap: 17px;
+        gap: 6px;
         border-radius: 20px;
         border: 1px solid var(--vulcan-4, rgba(9, 10, 18, 0.05));
         background: var(--white-100, #FFF);
@@ -186,7 +187,7 @@
         padding: 4px 4px 4px 16px;
         justify-content: center;
         align-items: center;
-        gap: 17px;
+        gap: 10px;
         border-radius: 20px;
         border: 1px solid var(--vulcan-4, rgba(9, 10, 18, 0.05));
        background: var(--main-4);
